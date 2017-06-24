@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Lindisfarne Ballroom Dancing Club</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+    <!--Company Name-->
+    <div class="main_bar">Lindisfarne Ballroom Dancing Club</div>
+
+    <!--Navigation Bar-->
+    <div class="menu_bar">
+        <ul class="nav">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li> | </li>
+            <li><a href="classes.html">Classes</a></li>
+            <li> | </li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li> | </li>
+            <li><a href="events.html">Events</a></li>
+            <li> | </li>
+            <li><a href="exams.html">Exams</a></li>
+            <li> | </li>
+            <li><a href="how_to_join.html">How to Join</a></li>
+            <li> | </li>
+            <li><a href="uniform_guide.html">Uniform Guide</a></li>
+            <li> | </li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--Page Content-->
+    <div class="page">
+        <!--Contact Details-->
+        <h4>Contact Details</h4>
+        <ul class="contact_details">
+            <li>Phone Number: <strong>+25417586589</strong></li>
+            <li>Email Address: <a>info@lindisfarne.com</a></li>
+            <li>Website: <a href="http://www.lindisfarne.com">www.lindisfarne.com</a></li>
+        </ul>
+
+        <br/>
+
+        <!--Contact Us-->
+        <fieldset>
+            <legend><small>Contact Us - Fill the form below</small></legend>
+            <form id="contact-form">
+                <div class="controls">
+                    <label class="control-label">Name:</label>
+                    <input type="text" name="name" required/>
+                </div></br>
+
+                <div class="controls">
+                    <label class="control-label">Email:</label>
+                    <input type="email" name="email" required/>
+                </div><br/>
+
+                <div class="controls">
+                    <label class="control-label">Choice of dance:</label>
+                    <select name="choice_of_dance" required>
+                        <option value="">--Select--</option>
+                        <option value="dance 1">Dance 1</option>
+                    </select>
+                </div><br/>
+
+                <div class="controls">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </fieldset>
+
+    </div>
+</div>
+</body>
+</html>
