@@ -65,3 +65,31 @@ ul.nav > li > a.active {
 .event img {
     width: 200px;
 }
+
+ul.contact_details {
+    line-height: 30px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#contact-form label {
+    margin-right: 80px;
+}
+
+#contact-form input {
+    width: 50%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.controls {
+    line-height: 30px;
+}
