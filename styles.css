@@ -32,14 +32,14 @@ ul.nav > li > a {
     font-size: 14px;
 }
 
-ul.nav > li > a:hover {
+ul.nav > li > a:hover, a.active {
     color: #ff2d39;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 ul.nav > li > a.active {
     color: #ff2d39;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .page {
@@ -67,7 +67,7 @@ ul.nav > li > a.active {
 }
 
 ul.contact_details {
-    line-height: 30px;
+    line-height: 20px;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -79,17 +79,25 @@ fieldset {
     padding: 20px;
 }
 
-#contact-form label {
-    margin-right: 80px;
-}
-
-#contact-form input {
+#contact-form input, select {
     width: 50%;
     padding: 7px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
+#contact-form button {
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+    padding: 5px 18px 5px 18px;
+    border-radius: 2px;
+}
+
+.contact_details li > span {
+    font-size: small;
+    font-weight: bold;
+}
+
 .controls {
-    line-height: 30px;
+    line-height: 20px;
 }

@@ -13,7 +13,7 @@
     <!--Navigation Bar-->
     <div class="menu_bar">
         <ul class="nav">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li> | </li>
             <li><a href="classes.html">Classes</a></li>
             <li> | </li>
@@ -27,7 +27,7 @@
             <li> | </li>
             <li><a href="uniform_guide.html">Uniform Guide</a></li>
             <li> | </li>
-            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="contact_us.html" class="active">Contact Us</a></li>
         </ul>
     </div>
 
@@ -36,9 +36,9 @@
         <!--Contact Details-->
         <h4>Contact Details</h4>
         <ul class="contact_details">
-            <li>Phone Number: <strong>+25417586589</strong></li>
-            <li>Email Address: <a>info@lindisfarne.com</a></li>
-            <li>Website: <a href="http://www.lindisfarne.com">www.lindisfarne.com</a></li>
+            <li><span>Phone Number: </span><small>+25417586589</small></li>
+            <li><span>Email Address: </span><small>info@lindisfarne.com</small></li>
+            <li><span>Website:</span> <a href="http://www.lindisfarne.com"><small>www.lindisfarne.com</small></a></li>
         </ul>
 
         <br/>
@@ -49,20 +49,29 @@
             <form id="contact-form">
                 <div class="controls">
                     <label class="control-label">Name:</label>
-                    <input type="text" name="name" required/>
+                    <div class="input">
+                        <input type="text" name="name" required/>
+                    </div>
                 </div></br>
 
                 <div class="controls">
                     <label class="control-label">Email:</label>
-                    <input type="email" name="email" required/>
+                    <div class="input">
+                        <input type="email" name="email" required/>
+                    </div>
                 </div><br/>
 
                 <div class="controls">
                     <label class="control-label">Choice of dance:</label>
-                    <select name="choice_of_dance" required>
-                        <option value="">--Select--</option>
-                        <option value="dance 1">Dance 1</option>
-                    </select>
+                    <div class="input">
+                        <select name="choice_of_dance" required>
+                            <option value="">--Select--</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+                    </div>
+
                 </div><br/>
 
                 <div class="controls">
