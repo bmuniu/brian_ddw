@@ -93,6 +93,10 @@ fieldset {
     border-radius: 2px;
 }
 
+#contact-form button:hover {
+    background: #2e6da4;
+}
+
 .contact_details li > span {
     font-size: small;
     font-weight: bold;
@@ -100,4 +104,19 @@ fieldset {
 
 .controls {
     line-height: 20px;
+}
+
+/*Exams*/
+table{
+    width: 100%;
+}
+
+table, tr, td, th {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr {
+    line-height: 40px;
 }
