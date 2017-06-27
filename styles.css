@@ -123,5 +123,10 @@ table, tr, td, th {
 }
 
 tr {
-    line-height: 40px;
+    line-height: 30px;
+}
+
+table#exams tr > td:first-child {
+    font-size: small !important;
+    font-weight: bold;
 }
