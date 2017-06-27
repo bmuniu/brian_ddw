@@ -93,3 +93,29 @@ fieldset {
 .controls {
     line-height: 30px;
 }
+
+/*Classes*/
+
+.classes{
+    margin-left: 100px;
+}
+
+.ballroom {
+    display: inline-block;
+    width: 26.6666%;
+    margin-right: 60px;
+}
+
+.ballrooms{
+    margin-left: 100px;
+}
+
+.event img {
+    width: 200px;
+}
+
+.h4{
+    font-family: Arial;
+    color: #005CB9;
+    font-size: 20px;
+}
