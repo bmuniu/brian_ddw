@@ -120,3 +120,22 @@ table, tr, td, th {
 tr {
     line-height: 40px;
 }
+
+/*Classes*/
+h4{
+    font-family: Arial;
+    color: #005CB9;
+    font-size:20px;
+
+}
+
+.ballrooms{
+    margin-left: 100px;
+
+}
+
+.ballroom {
+    display: inline-block;
+    width: 26.6666%;
+    margin-right: 60px;
+}
